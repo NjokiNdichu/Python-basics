@@ -11,6 +11,3 @@ elif (num3>num1) and (num3>num2):
     print(num3)
 else:
     print("They are equal")
-
-
-(str(num3)) + "  "+ ("is the largest")
