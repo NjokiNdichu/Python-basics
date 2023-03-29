@@ -4,9 +4,11 @@ for i in ls1:
     print("i is ",i)
 
 mydata=["Nrb", "Msa", "Ksm", "Eld", "Nkr"]
-for i in list(range(0,len(mydata))):
+mydataindexes= list(range(0,len(mydata)))
+for i in mydataindexes:
     if mydata[i] == 'Ksm':
         mydata[i]= 'Kisumu'
+        break
     else:
         pass
 print(mydata)
