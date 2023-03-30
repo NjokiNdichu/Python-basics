@@ -1,6 +1,5 @@
-rows=int(input("Enter number of rows:"))
-symbol="*"
-for i in range(1, rows+1):
-    print(symbol * i)
-
-   
+num1=float(input("Enter num1: "))
+num2=float(input("Enter num2: "))
+num3=float(input("Enter num3: "))
+num4=float(input("Enter num4: "))
+print(max(num1,num2,num3,num4))
