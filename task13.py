@@ -1,11 +1,11 @@
-email=input("Enter your email: ")
-password=input("Enter your password: ")
-attempts=3
-for i in range(1, attempts):
+attempts=0
+if attempts<3:
+    email=input("Enter your email: ")
+    password=input("Enter your password: ")
     if (email=="admin@mail.com" and password=="Admin@123"):
-        print("Login is successful")
+            print("Login is successful")
     else:
-        print("Invalid username and password")
-
-if attempts>3:
-    print("You have been blocked")
+            print("Invalid username and password")
+    attempts+=1
+else:
+    print("You have been blocked!")
